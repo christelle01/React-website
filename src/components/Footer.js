@@ -3,7 +3,8 @@ import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
-function Footer() {
+class Footer extends React.Component { 
+  render() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
@@ -115,6 +116,7 @@ function Footer() {
       </section>
     </div>
   );
+}
 }
 
 export default Footer;

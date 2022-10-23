@@ -4,7 +4,8 @@ import Cards from '../Cards';
 import Footer from '../Footer';
 import HeroSection from '../HeroSection';
 
-function Home() {
+class Home extends React.Component { 
+  render() {
   return (
     <>
       <HeroSection />
@@ -12,6 +13,7 @@ function Home() {
       <Footer />
     </>
   );
+}
 }
 
 export default Home;
